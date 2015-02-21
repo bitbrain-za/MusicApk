@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">پخش کننده موسیقی</string>
+    <string name="changer_menu">سویچ مخازن مسیقیها</string>
+    <string name="songs_menu">آهنگها</string>
+    <string name="albums_menu">آلبوم</string>
+    <string name="artists_menu">هنرمند</string>
+    <string name="exitstr">خروج</string>
+    <string name="menu_scan_title">اسکن</string>
+    <string name="dailog_scan_title">اسکن فایل صوتی</string>
+    <string name="dailog_scan_info">در حال اسکن</string>
+    <string name="dailog_loading_info">در حال دانلود</string>
+</resources>

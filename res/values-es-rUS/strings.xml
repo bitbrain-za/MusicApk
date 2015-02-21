@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Rep Musica</string>
+    <string name="changer_menu">Cambiar libreria de musica</string>
+    <string name="songs_menu">Canciones</string>
+    <string name="albums_menu">Albumes</string>
+    <string name="artists_menu">Artistas</string>
+    <string name="nocontent">Lo siento,no hay fichero MP3</string>
+    <string name="exitstr">Salir</string>
+    <string name="menu_scan_title">Escanear</string>
+    <string name="dailog_scan_title">Escanear ficheros Audio</string>
+    <string name="dailog_scan_info">Escaneando....</string>
+    <string name="dailog_loading_info">Cargando</string>
+</resources>

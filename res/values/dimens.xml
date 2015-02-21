@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="seekbar_width">405.0dip</dimen>
+    <dimen name="seekbar_height">50.0dip</dimen>
+    <dimen name="seekbar_margin_top">10.0dip</dimen>
+    <dimen name="seekbar_min_height">10.0dip</dimen>
+    <dimen name="seekbar_max_height">10.0dip</dimen>
+    <dimen name="seekbar_padding_left">13.0dip</dimen>
+    <dimen name="seekbar_padding_right">13.0dip</dimen>
+    <dimen name="seekbar_padding_bottom">92.0dip</dimen>
+</resources>

@@ -1,0 +1,12 @@
+version: 1.5.1
+apkFileName: Music.apk
+isFrameworkApk: false
+usesFramework:
+  ids:
+  - 1
+sdkInfo:
+  minSdkVersion: '9'
+  targetSdkVersion: '15'
+packageInfo:
+  cur_package: com.winca.music
+  orig_package: com.winca.music

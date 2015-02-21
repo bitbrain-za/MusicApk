@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">音乐播放器</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_music">音乐播放器</string>
+    <string name="changer_menu">切换音乐库</string>
+    <string name="songs_menu">歌曲</string>
+    <string name="albums_menu">专辑</string>
+    <string name="artists_menu">艺术家</string>
+    <string name="click_usb_but_scanning">正在扫描，请稍后!</string>
+    <string name="durationformatshort">%2$d:%5$02d</string>
+    <string name="durationformatlong">%1$d:%3$02d:%5$02d</string>
+    <string name="nocontent">抱歉！Music文件夹下没有音频文件，请放入音频文件！</string>
+    <string name="exitstr">退出</string>
+    <string name="menu_scan_title">扫描</string>
+    <string name="dailog_scan_title">扫描音频文件</string>
+    <string name="dailog_scan_info">正在扫描....</string>
+    <string name="dailog_loading_info">加载中</string>
+</resources>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">נגן מוסיקה</string>
+    <string name="changer_menu">משנה ספרית מוסיקה</string>
+    <string name="songs_menu">שיר</string>
+    <string name="albums_menu">אלבום</string>
+    <string name="artists_menu">אומן</string>
+    <string name="click_usb_but_scanning">מוריד,אנא המתן!</string>
+    <string name="exitstr">יציאה</string>
+    <string name="menu_scan_title">סריקה</string>
+    <string name="dailog_scan_title">סרוק קובץ אודיו</string>
+    <string name="dailog_scan_info">סורק</string>
+    <string name="dailog_loading_info">מוריד</string>
+</resources>

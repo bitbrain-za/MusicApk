@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Music Player</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_music">Music Player</string>
+    <string name="changer_menu">To change the Music Library</string>
+    <string name="songs_menu">Song</string>
+    <string name="albums_menu">Album</string>
+    <string name="artists_menu">Artist</string>
+    <string name="click_usb_but_scanning">Please wait, scanning now!</string>
+    <string name="durationformatshort">%2$d:%5$02d</string>
+    <string name="durationformatlong">%1$d:%3$02d:%5$02d</string>
+    <string name="nocontent">Sorry,There has no Mp3 File In Music Directory</string>
+    <string name="exitstr">Exit</string>
+    <string name="menu_scan_title">Scan</string>
+    <string name="dailog_scan_title">Scan Audio Files</string>
+    <string name="dailog_scan_info">Scanning....</string>
+    <string name="dailog_loading_info">Loading</string>
+</resources>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="vertical" android:background="@*android:color/background_dark" android:layout_width="166.0dip" android:layout_height="166.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:layout_gravity="center_horizontal" android:id="@id/fl_album" android:background="@drawable/bg_album_item" android:layout_width="126.0dip" android:layout_height="126.0dip" android:layout_marginTop="15.0dip">
+        <ImageView android:layout_gravity="center" android:id="@id/iv_album" android:background="@drawable/music_icon_default" android:layout_width="125.0dip" android:layout_height="125.0dip" />
+    </FrameLayout>
+    <TextView android:textSize="12.0sp" android:textColor="@color/tab_indicator_text" android:layout_gravity="center_horizontal" android:id="@id/tv_album_name" android:layout_width="wrap_content" android:layout_height="17.0dip" android:layout_marginTop="2.0dip" />
+    <ImageView android:background="@color/gray2" android:layout_width="fill_parent" android:layout_height="7.0dip" android:layout_marginTop="1.0dip" />
+</LinearLayout>

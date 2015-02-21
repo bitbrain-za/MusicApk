@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Музичний плеєр</string>
+    <string name="changer_menu">Перемикання музична бібліотека</string>
+    <string name="songs_menu">пісня</string>
+    <string name="albums_menu">альбом</string>
+    <string name="artists_menu">художники</string>
+    <string name="exitstr">вихід</string>
+    <string name="menu_scan_title">сканування</string>
+    <string name="dailog_scan_title">Сканування аудіофайл</string>
+    <string name="dailog_scan_info">сканування....</string>
+    <string name="dailog_loading_info">Завантаження</string>
+</resources>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:id="@id/PlayMusicLayout" android:background="@drawable/bg" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:id="@id/linearLayout1" android:layout_width="fill_parent" android:layout_height="190.0dip" android:layout_alignParentTop="true">
+        <FrameLayout android:background="@drawable/bg_album" android:paddingLeft="17.0dip" android:layout_width="195.0dip" android:layout_height="191.0dip">
+            <ImageView android:id="@id/albumImageView" android:background="@drawable/albumart_mp_unknown" android:layout_width="185.0dip" android:layout_height="195.0dip" />
+        </FrameLayout>
+        <LinearLayout android:gravity="center_vertical" android:background="@drawable/bg_play_current" android:layout_width="338.0dip" android:layout_height="190.0dip">
+            <ImageView android:id="@id/iv_play_cd_back" android:background="@drawable/play_cd_black" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="3.0dip">
+                <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="3.0dip">
+                    <com.winca.customView.WincaTextView android:textSize="17.0sp" android:textColor="@color/white" android:ellipsize="marquee" android:id="@id/tv_playing_song" android:focusable="true" android:layout_width="160.0dip" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:scrollHorizontally="true" android:singleLine="true" android:marqueeRepeatLimit="marquee_forever" />
+                    <ImageView android:background="@drawable/ic_mp_song_playback" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="7.0dip" />
+                </LinearLayout>
+                <ImageView android:background="@drawable/line_song_name" android:layout_width="243.0dip" android:layout_height="wrap_content" />
+                <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="15.0dip">
+                    <com.winca.customView.WincaTextView android:textSize="15.0sp" android:textColor="@color/white" android:ellipsize="marquee" android:id="@id/tv_playing_album" android:focusable="true" android:focusableInTouchMode="true" android:layout_width="160.0dip" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:scrollHorizontally="true" android:singleLine="true" android:marqueeRepeatLimit="marquee_forever" />
+                    <ImageView android:background="@drawable/ic_mp_album_playback" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" />
+                </LinearLayout>
+                <ImageView android:background="@drawable/line_song_name" android:layout_width="243.0dip" android:layout_height="wrap_content" />
+                <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="3.0dip">
+                    <com.winca.customView.WincaTextView android:textSize="15.0sp" android:textColor="@color/white" android:id="@id/tv_playing_artist" android:layout_width="160.0dip" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:singleLine="true" />
+                    <ImageView android:background="@drawable/ic_mp_artist_playback" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="7.0dip" />
+                </LinearLayout>
+                <ImageView android:background="@drawable/line_song_name" android:layout_width="243.0dip" android:layout_height="wrap_content" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:background="@drawable/bg_play_bar" android:layout_width="fill_parent" android:layout_height="95.0dip" android:layout_alignParentBottom="true">
+        <RelativeLayout android:layout_width="fill_parent" android:layout_height="27.0dip">
+            <TextView android:textColor="#ffffffff" android:id="@id/tv_current_time" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="13.0dip" android:text="01:00" android:layout_alignParentLeft="true" android:layout_centerHorizontal="true" android:layout_centerVertical="true" />
+            <SeekBar android:id="@id/cd_control_play_seekbar" android:paddingLeft="6.0dip" android:paddingRight="6.0dip" android:layout_width="fill_parent" android:layout_height="15.0dip" android:layout_marginLeft="55.0dip" android:layout_marginRight="55.0dip" android:maxHeight="10.0dip" android:progressDrawable="@drawable/cd_control_seekbar_drawable" android:minHeight="10.0dip" android:thumb="@drawable/red_thumb" android:layout_centerHorizontal="true" android:layout_centerVertical="true" />
+            <TextView android:textColor="#ffffffff" android:id="@id/tv_total_time" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="13.0dip" android:text="07:10" android:layout_alignParentRight="true" android:layout_centerHorizontal="true" android:layout_centerVertical="true" />
+        </RelativeLayout>
+        <RelativeLayout android:layout_gravity="center" android:layout_width="fill_parent" android:layout_height="68.0dip" android:layout_marginTop="5.0dip">
+            <ImageView android:layout_gravity="center" android:id="@id/iv_play_list" android:background="@drawable/bg_play_list" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:layout_alignParentLeft="true" />
+            <RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="55.0dip" android:layout_toRightOf="@id/iv_play_list">
+                <ImageView android:id="@id/iv_previous" android:background="@drawable/bg_previous" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="9.0dip" />
+                <FrameLayout android:id="@id/fl_play" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="-9.0dip" android:layout_marginTop="1.0dip" android:layout_toRightOf="@id/iv_previous">
+                    <ImageView android:id="@id/iv_pause" android:background="@drawable/bg_pause" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                    <ImageView android:id="@id/iv_play" android:background="@drawable/bg_play" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                </FrameLayout>
+                <ImageView android:id="@id/iv_next" android:background="@drawable/bg_next" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="-8.0dip" android:layout_marginTop="9.0dip" android:layout_toRightOf="@id/fl_play" />
+            </RelativeLayout>
+            <FrameLayout android:layout_gravity="center" android:id="@id/fl_play_pattern" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="53.0dip" android:layout_marginTop="5.0dip" android:layout_alignParentRight="true">
+                <ImageView android:id="@id/iv_play_random" android:background="@drawable/bg_play_random" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                <ImageView android:id="@id/iv_repeat_all" android:background="@drawable/bg_repeat_all" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                <ImageView android:id="@id/iv_repeat_once" android:background="@drawable/bg_repeat_once" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                <ImageView android:id="@id/iv_repeat_list" android:background="@drawable/bg_repeat_list_selector" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            </FrameLayout>
+        </RelativeLayout>
+    </LinearLayout>
+</RelativeLayout>

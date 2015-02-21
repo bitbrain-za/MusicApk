@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">تشغيل موسيقى</string>
+    <string name="changer_menu">تغيير مكتبة الموسيقى</string>
+    <string name="songs_menu">اغنية</string>
+    <string name="albums_menu">البوم</string>
+    <string name="artists_menu">الفنان</string>
+    <string name="nocontent">معذرة، لا يوجد ملف MP3 في مكتبة الموسيقى</string>
+    <string name="exitstr">خروج</string>
+    <string name="menu_scan_title">فحص</string>
+    <string name="dailog_scan_title">فحص ملف صوتي</string>
+    <string name="dailog_scan_info">فحص...</string>
+    <string name="dailog_loading_info">تحميلتحميل...</string>
+</resources>
